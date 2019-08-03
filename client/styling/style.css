@@ -1,0 +1,32 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* chart */
+
+
+/* select dates area */
+.select-dates {
+    position: relative;
+    width: 500px;
+    height: 550px;
+}
+
+.to-from-date {
+    display: flex;
+    flex-direction: column;
+}
+
+.to-from-date input {
+    width: 150px;
+    height: 30px;
+    font-size: 1.1rem;
+}
+
+/* select dates button */
+button {
+    width: 200px;
+    height: 25px;
+}
